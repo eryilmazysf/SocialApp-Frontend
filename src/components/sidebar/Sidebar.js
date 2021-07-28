@@ -53,6 +53,18 @@ export default function Sidebar() {
             <span className="sidebarListItemText">Courses</span>
           </li>
         </ul>
+        <button className="sidebarButton">Show More</button>
+        <hr className="sidebarHr" />
+        <ul className="sidebarFriendList">
+          <li className="sidebarFriend">
+            <img
+              src="/assets/person/2.jpeg"
+              alt="yusuf"
+              className="sidebarFriendImg"
+            />
+            <span className="sidebarFriendName">Yusuf </span>
+          </li>
+        </ul>
       </div>
     </div>
   );
